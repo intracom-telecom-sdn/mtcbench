@@ -83,3 +83,5 @@ initialization and before traffic initiation threads sleep for a specific delay
 (`-D`).  At the end of each internal iteration threads synchronize into a
 barrier, so that partial measurements can be aggregated and reported by a single
 thread.
+
+![](figs/mt_cbench.png)
