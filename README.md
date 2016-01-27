@@ -3,7 +3,7 @@
 ## Motivation
 
 MT-Cbench is an extended version of [Cbench emulator](https://github.com/andi-bigswitch/oflops/tree/master/cbench)
-which uses threading (Posix threads) to generate OpenFlow from multiple streams
+which uses threading (Posix threads) to generate OpenFlow traffic from multiple streams
 in parallel.
 
 The motivation behind this extension is to provide the ability for booting-up
