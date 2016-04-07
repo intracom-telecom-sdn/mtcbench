@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/intracom-telecom-sdn/mtcbench.svg?branch=master)](https://travis-ci.org/intracom-telecom-sdn/mtcbench)
+
 # MT-Cbench
 
 ## Motivation
