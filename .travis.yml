@@ -1,0 +1,17 @@
+branches:
+  only:
+    - develop_build_error
+sudo: required
+dist: trusty
+language: c
+python:
+  - 3.4
+before_script:
+script:
+  - echo "Building MT-Cbench"
+  - cd oflops
+  - ./boot.sh
+  - ./configure --with-openflow-src-dir=../openflow/
+  - make
+notifications:
+  email: false
