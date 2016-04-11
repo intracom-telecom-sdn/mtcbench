@@ -1,0 +1,21 @@
+branches:
+  only:
+    - develop_build_error
+sudo: required
+dist: trusty
+language: c
+before_script:
+  - sudo apt-get update -qq
+  - sudo apt-get -y install net-tools
+  - sudo apt-get -y install libsnmp-dev
+  - sudo apt-get -y install snmpd
+  - sudo apt-get -y install libpcap-dev
+  - sudo apt-get -y install autoconf
+  - sudo apt-get -y install make
+  - sudo apt-get -y install automake
+  - sudo apt-get -y install libtool
+  - sudo apt-get -y install libconfig-dev
+script:
+  - ./build_mtcbench.sh
+notifications:
+  email: false
