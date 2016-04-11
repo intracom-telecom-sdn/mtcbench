@@ -16,6 +16,6 @@ before_script:
   - sudo apt-get -y install libtool
   - sudo apt-get -y install libconfig-dev
 script:
-  - ./build.sh
+  - ./build_mtcbench.sh
 notifications:
   email: false
