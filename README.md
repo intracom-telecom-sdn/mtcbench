@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/intracom-telecom-sdn/mtcbench.svg?branch=master)](https://travis-ci.org/intracom-telecom-sdn/mtcbench)
-[![Build Status](https://travis-ci.org/intracom-telecom-sdn/mtcbench.svg?branch=develop_build_error)](https://travis-ci.org/intracom-telecom-sdn/mtcbench)
 
 # MT-Cbench
 
