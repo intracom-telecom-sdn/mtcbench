@@ -7,6 +7,15 @@ language: c
 python:
   - 3.4
 before_script:
+  - sudo apt-get update -qq
+  - sudo apt-get -y install net-snmp
+  - sudo apt-get -y install net-snmp-devel
+  - sudo apt-get -y install libtool
+  - sudo apt-get -y install libconfig-devel
+  - sudo apt-get -y install libpcap-devel
+  - sudo apt-get -y install autoconf
+  - sudo apt-get -y install make
+  - sudo apt-get -y install automake
 script:
   - echo "Building MT-Cbench"
   - cd oflops
