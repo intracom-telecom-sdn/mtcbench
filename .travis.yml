@@ -8,12 +8,15 @@ python:
   - 3.4
 before_script:
   - sudo apt-get update -qq
-  - sudo apt-get -y install snmp
-  - sudo apt-get -y install libtool
+  - sudo apt-get -y install net-tools
+  - sudo apt-get -y install libsnmp-dev
+  - sudo apt-get -y install snmpd
   - sudo apt-get -y install libpcap-dev
   - sudo apt-get -y install autoconf
   - sudo apt-get -y install make
   - sudo apt-get -y install automake
+  - sudo apt-get -y install libtool
+  - sudo apt-get -y install libconfig-dev
 script:
   - echo "Building MT-Cbench"
   - cd oflops
