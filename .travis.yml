@@ -1,6 +1,6 @@
 branches:
   only:
-    - develop_build_error
+    - master
 sudo: required
 dist: trusty
 language: c
