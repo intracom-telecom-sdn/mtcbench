@@ -4,8 +4,6 @@ branches:
 sudo: required
 dist: trusty
 language: c
-python:
-  - 3.4
 before_script:
   - sudo apt-get update -qq
   - sudo apt-get -y install net-tools
@@ -18,10 +16,6 @@ before_script:
   - sudo apt-get -y install libtool
   - sudo apt-get -y install libconfig-dev
 script:
-  - echo "Building MT-Cbench"
-  - cd oflops
-  - ./boot.sh
-  - ./configure --with-openflow-src-dir=../openflow/
-  - make
+  - ./build.sh
 notifications:
   email: false
