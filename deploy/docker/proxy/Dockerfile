@@ -20,7 +20,6 @@ RUN apt-get update
 RUN wget -P /opt/ https://raw.githubusercontent.com/intracom-telecom-sdn/mtcbench/cbench-docker-dpnds/deploy/docker/provision.sh
 RUN chmod +x /opt/provision.sh
 RUN /bin/bash -c "/opt/provision.sh 'http://172.28.40.9:3128/'"
-#CMD ["service", "openvswitch-switch" "start"]
 
 # Configure ssh-server
 RUN mkdir /var/run/sshd
