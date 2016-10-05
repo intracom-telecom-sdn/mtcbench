@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/intracom-telecom-sdn/mtcbench.svg?branch=master)](https://travis-ci.org/intracom-telecom-sdn/mtcbench)
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000)](https://hub.docker.com/r/intracom/mtcbench/)
 
 # MT-Cbench
 
